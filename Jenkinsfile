@@ -4,6 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                ls -alt
+                echo 'test 1'
                 echo 'Building..'
             }
         }
