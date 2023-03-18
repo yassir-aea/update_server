@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                ls -alt
-                echo 'test 1'
-                echo 'Building..'
+                - ls -alt
+                - echo 'test 1'
+                - echo 'Building..'
             }
         }
         stage('Test') {
